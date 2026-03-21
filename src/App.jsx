@@ -3,14 +3,14 @@ import Hero from './components/Hero';
 import ProjectCard from './components/ProjectCard';
 import Footer from './components/Footer';
 import { projects } from './data/projects';
-
+import './App.css'
 function App() {
   return (
     <div className="bg-background min-h-screen text-neutral-text selection:bg-accent/10">
       <Navbar />
       <div className="max-w-5xl mx-auto px-6">
         <Hero />
-        <section id="proyectos">
+        <section id="proyectos" className='flex grid-cols-1 md:grid-cols-2 '>
           {projects.map((p) => <ProjectCard key={p.id} {...p} />)}
         </section>
         <Footer />
