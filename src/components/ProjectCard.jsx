@@ -21,7 +21,7 @@ const ProjectCard = ({ title, description, stack, category, link }) => {
             </div>
 
             <div className="md:col-span-2">
-                <h3 className="text-2xl font-medium text-gray-800 group-hover:text-accent transition-colors">
+                <h3 className="text-2xl font-medium text-blue-500 group-hover:text-accent transition-colors">
                     {title}
                 </h3>
                 <p className="text-gray-500 mt-3 leading-relaxed">

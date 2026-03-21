@@ -10,11 +10,11 @@ const Hero = () => {
             >
                 <span className="text-accent font-mono text-sm tracking-widest uppercase">Disponible para proyectos</span>
                 <h1 className="text-5xl md:text-6xl font-bold text-gray-300 mt-4 tracking-tight">
-                    Desarrollo lógica robusta <br />
-                    <span className="text-gray-400">y experiencias móviles.</span>
+                    Darwin Castillo <br />
+                    <span className="text-blue-500">Desarrollador FullStack </span>
                 </h1>
                 <p className="mt-6 text-lg text-gray-500 max-w-xl leading-relaxed">
-                    Especializado en arquitecturas escalables de Node.js y aplicaciones móviles de alto rendimiento. Menos código, más impacto.
+                    Apasionado por la tecnología, me gusta crear soluciones innovadoras y eficientes. Me considero una persona proactiva, responsable y con gran capacidad de aprendizaje.
                 </p>
             </motion.div>
         </section>
