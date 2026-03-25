@@ -1,10 +1,10 @@
 export const projects = [
     {
         id: 1,
-        title: "API de E-commerce Scalable",
+        title: "Stokmi Inventario ",
         category: "Backend",
-        description: "Arquitectura de microservicios con Node.js y RabbitMQ.",
-        stack: ["Node.js", "Redis", "Docker"],
+        description: "Proyecto inventerio con chatbot impulsado con inteligencia artificial ",
+        stack: ["Node.js", "React", "MongoDB"],
         link: "github.com/tu-usuario/repo"
     },
     {
