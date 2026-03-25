@@ -14,5 +14,13 @@ export const projects = [
         description: "Aplicación nativa con React Native y Firebase.",
         stack: ["React Native", "Firebase", "Google Maps SDK"],
         link: "github.com/tu-usuario/repo-app"
+    },
+    {
+        id: "AnyChat",
+        title: "App de Mensajeria Anonima ",
+        category: "Mobile",
+        description: "Aplicación nativa con  Flutter y Firebase.",
+        stack: ["Flutter", "Firebase",],
+        link: "github.com/tu-usuario/repo-app"
     }
 ];
