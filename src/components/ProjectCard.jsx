@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Github, ExternalLink, Server, Smartphone } from 'lucide-react';
 
-const ProjectCard = ({ title, description, stack, category, link }) => {
+const ProjectCard = ({ title, description, stack, category, link, image }) => {
     console.log(stack);
     return (
         <motion.div
@@ -13,7 +13,7 @@ const ProjectCard = ({ title, description, stack, category, link }) => {
             {/* Image Side - Now Top */}
             <div className="relative h-48 sm:h-56 shrink-0 overflow-hidden">
                 <img
-                    src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                    src={image}
                     alt={title}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-80 group-hover:opacity-100"
                 />
