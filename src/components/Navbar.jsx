@@ -6,11 +6,11 @@ const Navbar = () => {
             <motion.div
                 initial={{ y: -20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                className="flex gap-8 px-6 py-3 rounded-full bg-white/80 backdrop-blur-md border border-gray-100 shadow-sm"
+                className="flex gap-4 sm:gap-8 px-4 sm:px-6 py-2.5 sm:py-3 rounded-full bg-white/80 backdrop-blur-md border border-gray-100 shadow-sm"
             >
-                <a href="#" className="text-sm font-medium text-gray-600 hover:text-black transition-colors">Inicio</a>
-                <a href="#proyectos" className="text-sm font-medium text-gray-600 hover:text-black transition-colors">Proyectos</a>
-                <a href="#contacto" className="text-sm font-medium text-gray-600 hover:text-black transition-colors">Contacto</a>
+                <a href="#" className="text-xs sm:text-sm font-medium text-gray-600 hover:text-black transition-colors">Inicio</a>
+                <a href="#proyectos" className="text-xs sm:text-sm font-medium text-gray-600 hover:text-black transition-colors">Proyectos</a>
+                <a href="#contacto" className="text-xs sm:text-sm font-medium text-gray-600 hover:text-black transition-colors">Contacto</a>
             </motion.div>
         </nav>
     );

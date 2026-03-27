@@ -24,7 +24,7 @@ const Skills = () => {
     };
 
     return (
-        <section className="py-20 border-b border-gray-50">
+        <section className="py-10 sm:py-20 border-b border-gray-50">
             <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
