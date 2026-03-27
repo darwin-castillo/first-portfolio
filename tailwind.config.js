@@ -4,9 +4,9 @@ export default {
     theme: {
         extend: {
             colors: {
-                'background': '#ffffff', // O #0f172a para modo oscuro
-                'accent': '#3b82f6',     // Un azul sutil
-                'neutral-text': '#4b5563'
+                'background': '#0a0a0c', // Negro profundo azulado
+                'accent': '#06b6d4',     // Cyan
+                'neutral-text': '#94a3b8' // Gris azulado claro
             },
             fontFamily: {
                 sans: ['Inter', 'sans-serif'],

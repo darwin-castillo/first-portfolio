@@ -32,7 +32,7 @@ function App() {
   };
 
   return (
-    <div className="bg-background min-h-screen text-neutral-text selection:bg-accent/10 overflow-x-hidden">
+    <div className="bg-background min-h-screen text-gray-300 selection:bg-accent/20 overflow-x-hidden">
       <Navbar />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-20">
         <Hero />
@@ -42,8 +42,8 @@ function App() {
         <section id="proyectos" className="relative mt-12 sm:mt-32">
           <div className="flex items-center justify-between mb-12">
             <div>
-              <h2 className="text-4xl font-bold text-gray-900">Proyectos</h2>
-              <p className="text-gray-500 mt-2">Una selección de mis trabajos más recientes</p>
+              <h2 className="text-4xl font-bold text-white">Proyectos</h2>
+              <p className="text-gray-400 mt-2">Una selección de mis trabajos más recientes</p>
             </div>
             <div className="flex gap-4">
               <button 
@@ -85,7 +85,7 @@ function App() {
                 key={idx}
                 onClick={() => setCurrentIndex(idx)}
                 className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                  currentIndex === idx ? 'w-8 bg-blue-600' : 'bg-gray-300'
+                  currentIndex === idx ? 'w-8 bg-accent' : 'bg-gray-700'
                 }`}
               />
             ))}

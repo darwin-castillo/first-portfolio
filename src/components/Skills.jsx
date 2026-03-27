@@ -2,12 +2,12 @@ import { motion } from 'framer-motion';
 
 const SkillGroup = ({ title, skills }) => (
     <div className="flex flex-col gap-4">
-        <h4 className="text-xs font-mono uppercase tracking-[0.2em] text-gray-400">{title}</h4>
+        <h4 className="text-xs font-mono uppercase tracking-[0.2em] text-accent font-bold">{title}</h4>
         <div className="flex flex-wrap gap-2">
             {skills.map((skill) => (
                 <span
                     key={skill}
-                    className="px-4 py-2 bg-white border border-gray-100 rounded-lg text-sm text-gray-600 hover:border-accent hover:text-accent transition-all duration-300 cursor-default shadow-sm"
+                    className="px-4 py-2 bg-gray-900/50 border border-gray-800 rounded-lg text-sm text-gray-400 hover:border-accent hover:text-white transition-all duration-300 cursor-default shadow-sm"
                 >
                     {skill}
                 </span>
